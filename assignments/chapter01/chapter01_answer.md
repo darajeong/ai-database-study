@@ -253,7 +253,7 @@ ORD-002, 200000
 업무적으로 주문이 `ORD-001`, `ORD-002` 두 건이고 `order_code`가 주문을 고유하게 구분한다고 **가정할 경우** 예상 합계:
 
 ```text
-__________ 원
+300,000 원
 ```
 
 > 위 가정 자체가 실제 업무 규칙인지 확인해야 한다는 점도 기억합니다.
@@ -268,7 +268,7 @@ FROM ch01_orders;
 실제 결과:
 
 ```text
-50000 원
+500,000 원
 ```
 
 ## 4-4. 결과 해석
@@ -420,7 +420,7 @@ assignments/chapter01/images/step04_duplicate_result.png
 ```text
 1. 한 학생은 여러 상담을 신청할 수 있다.
 2. 한 상담에는 여러 학생이 신청할 수 있다.
-3. 하나의 상담신청은 한 학생과 한 강의를 연결한다.
+3. 한 학생과 한 상담을 연결한다.
 ```
 
 ## 6-5. 아직 결정하지 않은 정책
@@ -622,7 +622,7 @@ AI 대화 전체를 캡처할 필요는 없습니다. 핵심 요청과 검토 �
 아래에는 **교수자 템플릿 URL이 아니라 본인이 작성한 답안 파일의 GitHub URL**을 기록합니다.
 
 ```text
-https://github.com/<본인-GitHub-ID>/<본인-저장소>/blob/main/assignments/chapter01/chapter01_answer.md
+https://github.com/darajeong/ai-database-study/blob/main/assignments/chapter01/chapter01_answer.md
 ```
 
 내 실제 제출 URL:
